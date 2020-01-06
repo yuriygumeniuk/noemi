@@ -54,7 +54,10 @@ html {
 .nav__link:last-child a:after{
 	display: none;
 }
-.nav__link:hover a, .nav__link:hover a:after {
+.nav__link:hover a,
+.nav__link:hover a:after,
+.nav__link.active a,
+.nav__link.active a:after {
 	color: #b59f5b;	
 }
 /*---------------*/
