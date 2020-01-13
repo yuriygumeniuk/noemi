@@ -14,7 +14,7 @@ gulp.task('server', ['styles'], function() {
 		server: { baseDir: './app/'}
 	});
 
-    watch(['./app/**/*.html', './app/**/*.js', './app/img/**/*.*']).on('change', browserSync.reload);
+    watch(['./app/*.html', './app/**/*.js', './app/img/**/*.*']).on('change', browserSync.reload);
 
 	watch('./app/#source/**/*.scss', {readDelay: 500}, function(){
 		gulp.start('styles');
@@ -39,6 +39,7 @@ gulp.task('styles', function() {
 		browsers: ['last 6 versions'],
 		cascade: true
 	}))
+	// .pipe(csscomb())
 	.pipe(gulp.dest('./app/css'))
 	.pipe(browserSync.stream());
 });

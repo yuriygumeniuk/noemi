@@ -239,7 +239,6 @@
         "-webkit-box-shadow",
         "-moz-box-shadow",
         "box-shadow",
-        "color",
         "table-layout",
         "caption-side",
         "empty-cells",
@@ -267,7 +266,7 @@
         "-ms-text-justify",
         "text-justify",
         "text-outline",
-        "text-transform",
+
         "text-wrap",
         "-ms-text-overflow",
         "text-overflow",
@@ -286,7 +285,6 @@
         "-webkit-hyphens",
         "-moz-hyphens",
         "hyphens",
-        "letter-spacing",
         "src",
         "line-height",
         "opacity",
@@ -427,14 +425,17 @@
         "orientation"
     ],
     [
+        "color",
         "font",
+        "font-size",
         "font-weight",
         "font-style",
         "font-variant",
         "font-size-adjust",
         "font-stretch", 
-        "font-size",
-        "font-family"
+        "font-family",
+        "text-transform",
+        "letter-spacing"
     ],
     [
         "$include"
