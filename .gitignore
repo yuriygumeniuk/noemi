@@ -22,7 +22,8 @@ node_modules/
 *.log
 *.sql
 *.sqlite
-
+*.jpg
+*.png
 .sass-cache/
 *.css.map
 *.sass.map
